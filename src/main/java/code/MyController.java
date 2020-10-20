@@ -1,3 +1,5 @@
+package code;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -7,6 +9,6 @@ public class MyController
     @GetMapping("/hi")
     public String doSomething()
     {
-        return "Hello People";
+        return "hello_people";
     }
 }
